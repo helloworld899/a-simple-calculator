@@ -1,0 +1,78 @@
+#main-header {
+    background-color: rgba(137, 43, 226, 0.274);
+    padding-bottom: 10px;
+    padding-top: 22px;
+}
+
+/*positonerar sjävaste miniräknarn*/
+section {
+  margin-top: 40px;
+  margin-left: 33px;
+}
+
+/*ändrar storleken på hela miniräknarn*/
+.container {
+    max-width: 400px;
+}
+
+/*justering av resultat-fönstret på miniräknaren*/
+.result-window {
+    position: static;
+    text-align: left;
+    height: 50px;
+    max-width: 400px;
+    background-color: rgb(250, 247, 247);
+    box-shadow: inset 2px 2px 5px #babecc;
+    margin-left: 18px;
+    box-shadow: 5px 10px #888888;
+}
+
+/*justering av resultat-boxen på miniräknaren*/
+.result-box {
+  background-color: rgb(153, 0, 255, 0.267);
+  position: absolute;
+  right: 500px;
+  width: 450px;
+  height: 500px;
+  border: 6px solid #971691;
+  bottom: 5em;
+}
+
+/*justering av innehållet på miniräknaren*/
+#display {
+    background-color: navajowhite;
+    padding-top: 28px;
+    padding-bottom: 50px;
+    padding-right: 27px;
+    padding-left: 5px;
+    border-radius: 40px;
+    border: 6px solid #971691;
+}
+
+  
+/*justering av knapparna på miniräknaren*/
+.btn {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(153, 0, 255, 0.267);
+    border: 2px solid gainsboro;
+    padding-top: 30px;
+    box-shadow: inset 2px 2px 5px #dd1390;
+    box-shadow: 5px 10px #888888;
+}
+
+/* detta positionerar knapparna och siffrorna på rader samt centrerar det*/
+.rows {
+display: flex;
+margin-left: 14px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
