@@ -16,7 +16,7 @@ section {
 }
 
 /*justering av resultat-fönstret på miniräknaren*/
-.result-window {
+#result_window{
     position: static;
     text-align: left;
     height: 50px;
@@ -25,10 +25,11 @@ section {
     box-shadow: inset 2px 2px 5px #babecc;
     margin-left: 18px;
     box-shadow: 5px 10px #888888;
+    font-size: xx-large;
 }
 
 /*justering av resultat-boxen på miniräknaren*/
-.result-box {
+#result_box {
   background-color: rgb(153, 0, 255, 0.267);
   position: absolute;
   right: 500px;
@@ -36,10 +37,11 @@ section {
   height: 500px;
   border: 6px solid #971691;
   bottom: 5em;
+  font-size: xx-large;
 }
 
 /*justering av innehållet på miniräknaren*/
-#display {
+.container {
     background-color: navajowhite;
     padding-top: 28px;
     padding-bottom: 50px;

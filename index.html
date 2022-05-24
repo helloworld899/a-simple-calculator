@@ -8,48 +8,51 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header id="main-header"> 
+    <header id="main-header">
       <h1>Just a Simple Calculator</h1>
     </header>
 
     <section>
       <div class="container">
-          <div id="result_box">Results</div>
-          <div id="result_window"></div> 
+        <div id="result_box">
+          History
+          <ul class="unlisted"></ul>
+        </div>
 
-          <div class = "btns">
-           <div class="rows">
+        <div id="result_window"></div>
+
+        <div class="btns">
+          <div class="rows">
             <div class="btn"><h2>7</h2></div>
             <div class="btn"><h2>8</h2></div>
             <div class="btn"><h2>9</h2></div>
-            <div class="btn"><h2>*</h2></div>
+            <div id="opBtn" class="btn"><h2>*</h2></div>
           </div>
 
           <div class="rows">
             <div class="btn"><h2>4</h2></div>
             <div class="btn"><h2>5</h2></div>
             <div class="btn"><h2>6</h2></div>
-            <div class="btn"><h2>-</h2></div>
+            <div id="opBtn" class="btn"><h2>-</h2></div>
           </div>
 
           <div class="rows">
             <div class="btn"><h2>1</h2></div>
             <div class="btn"><h2>2</h2></div>
             <div class="btn"><h2>3</h2></div>
-            <div class="btn"><h2>+</h2></div>
+            <div id="opBtn" class="btn"><h2>+</h2></div>
           </div>
 
           <div class="rows">
             <div class="btn"><h2>C</h2></div>
             <div class="btn"><h2>0</h2></div>
-            <div class="btn"><h2>.</h2></div>
-            <div class="btn"><h2>=</h2></div>
+            <div id="opBtn" class="btn"><h2>.</h2></div>
+            <div id="opBtn" class="btn"><h2>=</h2></div>
           </div>
         </div>
-
       </div>
     </section>
 
-    <script src="app.js"></script>
+    <script src="domAPI.js"></script>
   </body>
 </html>
